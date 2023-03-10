@@ -1,0 +1,119 @@
+* {
+    color: white;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #101010;
+    margin: 0;
+}
+
+.header {
+    background-color: #044204;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.header>.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    align-self: center;
+}
+
+.nav {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 2rem;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    max-width: 1300px;
+    padding: 0 1rem;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.splash {
+    display: flex;
+    align-items: center;
+}
+
+.cards>.container {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: darkgreen;
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+
+/* .about>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+} */
+
+.about {
+    background-color: #044204;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.story {
+    margin: 0 20%;
+}
+
+.action {
+    background-color: #101010;
+}
+
+.action>.container {
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.callbox {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    flex: 0 0 80%;
+    line-height: 0.5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+}
+
+.footer {
+    background-color: #044204;
+}
+

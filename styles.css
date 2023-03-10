@@ -14,7 +14,6 @@ body {
 .header {
     background-color: #044204;
     justify-content: center;
-    margin-bottom: 1rem;
 }
 
 .header>.container {
@@ -46,9 +45,21 @@ ul {
     margin: 0 auto;
 }
 
+.hero {
+    background-color: #044204;
+    padding-top: 4rem;
+}
+
 .splash {
     display: flex;
     align-items: center;
+    gap: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.splashtext {
+    max-width: 600px;
 }
 
 .cards>.container {

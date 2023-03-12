@@ -2,6 +2,11 @@
     color: white;
 }
 
+a {
+    text-decoration-line: none;
+    color: lightgray;
+}
+
 
 
 body {
@@ -12,7 +17,7 @@ body {
 }
 
 .header {
-    background-color: #044204;
+    background-color: #033003;
     justify-content: center;
 }
 
@@ -59,11 +64,18 @@ ul {
 }
 
 .splashtext {
+
     max-width: 600px;
 }
 
+.cards {
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
 .cards>.container {
-    height: 700px;
+    height: 550px;
     align-items: center;
     justify-content: center;
 }
@@ -72,16 +84,10 @@ ul {
     background-color: darkgreen;
     margin: 4rem;
     padding: 1rem;
-    border-radius: 25px;
+    border-radius: 7px;
+    height: 300px;
+    width: 200px;
 }
-
-
-/* .about>.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: green;
-} */
 
 .about {
     background-color: #044204;
@@ -106,7 +112,7 @@ ul {
 }
 
 .callbox {
-    background-color: green;
+    background-color: darkgreen;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -122,9 +128,17 @@ button {
     border-radius: 10px;
     border-color: white;
     border-width: 2px;
+    padding: 0 1rem;
+    border-style: solid;
 }
 
-.footer {
-    background-color: #044204;
+.footer{
+    background-color: #033003;
 }
 
+.footer>.container{
+    background-color: #033003;
+    display: flex;
+    justify-self: center;
+    gap: 1rem;
+}
